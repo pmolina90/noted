@@ -1,0 +1,14 @@
+{
+  "source_name": "demo_directory",
+  "start_url": "sample_data/page1.html",
+  "item_selector": "div.listing",
+  "fields": {
+    "name": "h2.biz-name",
+    "phone": "span.phone",
+    "website": "a.website",
+    "address": "p.address",
+    "category": "span.category"
+  },
+  "next_page_selector": "a.next",
+  "delay_seconds": 2
+}
